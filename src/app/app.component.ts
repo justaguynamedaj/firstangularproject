@@ -56,6 +56,7 @@ export class AppComponent {
   
   listStudents(): void {
     this.printing = true;
+    this.messages = null;
     console.log('Showing stored students');
   }
 
